@@ -1,6 +1,47 @@
 @use "../../variables" as *;
 
 .assignment-example-button {
-  color: $color-example;
-  font-size: $fontsize-example;
-}
+/* text-wrap */
+
+
+width: 52px;
+height: 20px;
+
+/* S/basic */
+
+font-family: 'Noto Sans JP';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+/* white */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+  /* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 16px;
+
+position: absolute;
+width: 200px;
+left: 20px;
+top: 20px;
+
+/* black */
+
+background: #000001;}
