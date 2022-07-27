@@ -1,0 +1,26 @@
+@use "../../variables" as *;
+
+.card {/* card-body */
+
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    
+    width: 224px;
+    height: 183px;
+    
+    /* white_smoke */
+    
+    background: #F5F5F5;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;}
