@@ -1,7 +1,7 @@
 @use "../../variables" as *;
 .button{
-    width: 180px;
-    height: 45px;
+    width: 200px;
+    height: 55px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -9,14 +9,14 @@
     padding: 0px;
     transition: background-color 0.2s ease;
     line-height: 20px;
-    font-size: $fontsize-l;
+    font-size: $fontsize-s;
     color: $white;
     background-color: $black;
     @media screen and (max-width: $breakpoint-md){
         width: 150px;
         height: 55px;
     }
-    @media screen and (max-width: $breakpoint-lg) {
+    @media screen and (max-width: $breakpoint-lg){
         width: 200px;
         height: 55px;
     }
